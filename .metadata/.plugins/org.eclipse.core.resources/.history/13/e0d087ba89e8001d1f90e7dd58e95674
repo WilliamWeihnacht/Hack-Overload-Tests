@@ -7,7 +7,7 @@ import org.testng.Assert;
 public class BrowserManager {
 	
 	public static WebDriver getDriver(String type) {
-		WebDriver driver = null;
+		WebDriver driver;
 		if (type.equalsIgnoreCase("chrome")) {
 			driver = new ChromeDriver();
 		} else if (type.equalsIgnoreCase("firefox")) {
