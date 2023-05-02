@@ -9,12 +9,14 @@ public class BrowserManager {
 	public static WebDriver getDriver(String type) {
 		WebDriver driver = null;
 		if (type.equalsIgnoreCase("chrome")) {
+			System.setProperty("webdriver.chrome.driver", "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/drivers/chromedriver");
 			driver = new ChromeDriver();
 		} else if (type.equalsIgnoreCase("firefox")) {
-			//driver = new Firefox
+			//driver = new firefox driver TODO
 		} else {
 			Assert.assertTrue(false,"No Browser type sent");
 		}
+		
 		driver.manage().window().maximize();
 		return driver;
 	}

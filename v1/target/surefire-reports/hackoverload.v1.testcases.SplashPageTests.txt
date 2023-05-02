@@ -1,0 +1,8 @@
+-------------------------------------------------------------------------------
+Test set: hackoverload.v1.testcases.SplashPageTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 1, Time elapsed: 0.9 s <<< FAILURE! - in hackoverload.v1.testcases.SplashPageTests
+setup(hackoverload.v1.testcases.SplashPageTests)  Time elapsed: 0.423 s  <<< FAILURE!
+java.lang.IllegalStateException: It must be an executable file: /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/drivers/chromedriver
+	at hackoverload.v1.testcases.SplashPageTests.setup(SplashPageTests.java:17)
+

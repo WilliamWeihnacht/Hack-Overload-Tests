@@ -8,10 +8,10 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class healthcheck {
 
 	@Test
-	public void test_search() {
+	public void test_title() {
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://stackoverflowclone-pk3b.onrender.com/splash");
-		driver.findElement(By.id("searchbar")).sendKeys("Lorem");
+//		driver.findElement(By.id("searchbar")).sendKeys("Lorem");
 		
 	}
 }

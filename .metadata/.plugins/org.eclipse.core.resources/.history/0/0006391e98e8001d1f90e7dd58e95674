@@ -1,0 +1,14 @@
+package hackoverload.v1.pageobjects;
+
+import org.openqa.selenium.WebDriver;
+
+public class SplashPageObject {
+
+	WebDriver driver;
+	
+	public SplashPageObject(WebDriver driver) {
+		this.driver = driver;
+	}
+	
+	
+}
