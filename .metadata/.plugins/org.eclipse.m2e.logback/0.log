@@ -331,3 +331,13 @@
 2023-05-02 16:52:19,152 [Worker-85: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/test/resources
 2023-05-02 16:52:24,884 [Worker-91: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1":
 2023-05-02 16:52:24,885 [Worker-91: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-05-02 16:58:17,526 [Worker-90: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1":
+2023-05-02 16:58:17,532 [Worker-90: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-05-02 16:58:27,503 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-02 16:58:27,504 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/main/resources
+2023-05-02 16:58:27,507 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-05-02 16:58:27,507 [Worker-91: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/test/resources
+2023-05-02 16:59:22,325 [Worker-90: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1":
+2023-05-02 16:59:22,326 [Worker-90: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
+2023-05-02 17:01:07,017 [Worker-90: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1":
+2023-05-02 17:01:07,019 [Worker-90: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -Dstyle.color=always test
