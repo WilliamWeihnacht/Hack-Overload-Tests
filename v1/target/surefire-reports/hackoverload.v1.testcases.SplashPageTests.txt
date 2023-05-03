@@ -1,17 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: hackoverload.v1.testcases.SplashPageTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 9.043 s <<< FAILURE! - in hackoverload.v1.testcases.SplashPageTests
-test_join(hackoverload.v1.testcases.SplashPageTests)  Time elapsed: 0.056 s  <<< FAILURE!
-org.openqa.selenium.NoSuchElementException: 
-no such element: Unable to locate element: {"method":"css selector","selector":"#splash\-sign\-up\-button"}
-  (Session info: chrome=112.0.5615.137)
-For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
-Build info: version: '4.9.0', revision: 'd7057100a6'
-System info: os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '12.6', java.version: '19.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [787e0022265093493e537153cfaa5c5f, findElement {using=id, value=splash-sign-up-button}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 112.0.5615.137, chrome: {chromedriverVersion: 112.0.5615.49 (bd2a7bcb881c..., userDataDir: /var/folders/bn/dv0w82nd6t1...}, goog:chromeOptions: {debuggerAddress: localhost:54892}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://localhost:54892/devtoo..., se:cdpVersion: 112.0.5615.137, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: 787e0022265093493e537153cfaa5c5f
-	at hackoverload.v1.testcases.SplashPageTests.test_join(SplashPageTests.java:24)
-
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.184 s - in hackoverload.v1.testcases.SplashPageTests
