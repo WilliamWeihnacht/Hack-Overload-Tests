@@ -39,7 +39,7 @@ public class SplashPageTests {
 	
 	@AfterTest
 	public void cleanup() {
-		//driver.close();
+		driver.close();
 	}
 
 }
