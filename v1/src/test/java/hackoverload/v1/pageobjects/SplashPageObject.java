@@ -1,8 +1,5 @@
 package hackoverload.v1.pageobjects;
 
-import static org.junit.Assert.assertNotNull;
-import static org.junit.Assert.assertTrue;
-
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -18,18 +15,15 @@ public class SplashPageObject {
 	//Login button
 	@FindBy(id = "splash-login-button") WebElement loginButton;
 	
-	//2nd login button
-	@FindBy(id = "post-bubbles-button") WebElement secondLoginButton;
+	//2nd join button
+	@FindBy(id = "post-bubbles-button") WebElement secondJoinButton;
 	
 	public SplashPageObject(WebDriver driver) {
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
-		
 	}
 	
 	public void clickJoin () {
-//		assertNotNull("Join button not found.",joinButton);
-//		assertTrue("Join button not displayed.", joinButton.isDisplayed());
 		joinButton.click();
 	}
 	
@@ -37,7 +31,7 @@ public class SplashPageObject {
 		loginButton.click();
 	}
 	
-	public void clickSecondLogin () {
-		secondLoginButton.click();
+	public void clickSecondJoin () {
+		secondJoinButton.click();
 	}
 }

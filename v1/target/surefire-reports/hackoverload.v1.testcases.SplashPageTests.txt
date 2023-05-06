@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: hackoverload.v1.testcases.SplashPageTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 9.078 s - in hackoverload.v1.testcases.SplashPageTests
+Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 5.674 s - in hackoverload.v1.testcases.SplashPageTests
