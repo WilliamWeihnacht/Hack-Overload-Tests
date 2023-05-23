@@ -2,7 +2,10 @@ package hackoverload.v1.testcases;
 
 import static org.junit.Assert.assertEquals;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
@@ -10,15 +13,18 @@ import org.testng.annotations.Test;
 
 import hackoverload.v1.pageobjects.LoginPageObject;
 
-import util.BrowserManager;
-
 public class LoginPageTests {
 
 	WebDriver driver;
 	
 	@BeforeSuite
 	public void setup() {
-		driver = BrowserManager.getDriver("chrome");
+		//driver = BrowserManager.getDriver("chrome");
+		String path = System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",path+"/drivers/chromedriver");
+		driver = new ChromeDriver();
+		driver.manage().window().maximize();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	
 	@BeforeMethod

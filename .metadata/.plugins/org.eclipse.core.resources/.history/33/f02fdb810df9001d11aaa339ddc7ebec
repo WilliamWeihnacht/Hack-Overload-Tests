@@ -11,8 +11,7 @@ public class BrowserManager {
 	public static WebDriver getDriver(String type) {
 		WebDriver driver = null;
 		if (type.equalsIgnoreCase("chrome")) {
-			String path = System.getProperty("user.dir");
-			System.setProperty("webdriver.chrome.driver",path+"/drivers/chromedriver");
+			System.setProperty("webdriver.chrome.driver", "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/drivers/chromedriver");
 			driver = new ChromeDriver();
 		} else if (type.equalsIgnoreCase("firefox")) {
 			//driver = new firefox driver TODO
