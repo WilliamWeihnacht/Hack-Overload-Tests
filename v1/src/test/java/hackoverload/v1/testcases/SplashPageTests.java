@@ -22,7 +22,8 @@ public class SplashPageTests {
 	@BeforeSuite
 	public void setup() {
 		//driver = BrowserManager.getDriver("chrome");
-		System.setProperty("webdriver.chrome.driver", "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/drivers/chromedriver");
+		String path = System.getProperty("user.dir");
+		System.setProperty("webdriver.chrome.driver",path+"/drivers/chromedriver");
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
