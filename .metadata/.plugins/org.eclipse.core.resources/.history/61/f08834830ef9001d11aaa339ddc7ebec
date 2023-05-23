@@ -19,6 +19,11 @@ public class SplashPageTests {
 	@BeforeSuite
 	public void setup() {
 		driver = BrowserManager.getDriver("chrome");
+//		String path = System.getProperty("user.dir");
+//		System.setProperty("webdriver.chrome.driver",path+"/drivers/chromedriver");
+//		driver = new ChromeDriver();
+//		driver.manage().window().maximize();
+//		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
 	}
 	
 	@BeforeMethod
