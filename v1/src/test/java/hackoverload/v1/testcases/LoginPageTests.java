@@ -9,6 +9,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Test;
 
 import hackoverload.v1.pageobjects.LoginPageObject;
+import hackoverload.v1.pageobjects.NavbarPageObject;
 
 import util.BrowserManager;
 
@@ -23,15 +24,17 @@ public class LoginPageTests {
 	
 	@BeforeMethod
 	public void beforeEach() {
-		//TODO log out
 		driver.get("https://stackoverflowclone-pk3b.onrender.com/login");
+		NavbarPageObject navbarPageInstance = new NavbarPageObject(driver);
+		if (navbarPageInstance.loggedIn()) navbarPageInstance.logout();
 	}
 	
 	@Test
 	public void testDemoLogin() {
 		LoginPageObject loginPageInstance = new LoginPageObject(driver);
+		assertEquals(driver.getCurrentUrl(), "https://stackoverflowclone-pk3b.onrender.com/login");
 		loginPageInstance.clickDemoLogin();
-		//assertEquals(driver.getCurrentUrl(),"https://stackoverflowclone-pk3b.onrender.com/questions?page=1");
+		assertEquals(driver.getCurrentUrl(),"https://stackoverflowclone-pk3b.onrender.com/questions?page=1");
 	}
 	
 	@AfterSuite
