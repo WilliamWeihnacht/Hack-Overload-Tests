@@ -1,7 +1,13 @@
 package hackoverload.v1.testcases;
 
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
 import static org.junit.Assert.assertEquals;
 
+import java.time.Duration;
+
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
@@ -32,9 +38,11 @@ public class LoginPageTests {
 	@Test
 	public void testDemoLogin() {
 		LoginPageObject loginPageInstance = new LoginPageObject(driver);
-		assertEquals(driver.getCurrentUrl(), "https://stackoverflowclone-pk3b.onrender.com/login");
+		assertEquals("https://stackoverflowclone-pk3b.onrender.com/login",driver.getCurrentUrl());
 		loginPageInstance.clickDemoLogin();
-		assertEquals(driver.getCurrentUrl(),"https://stackoverflowclone-pk3b.onrender.com/questions?page=1");
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("log-out-button")));
+		assertEquals("Login failed","https://stackoverflowclone-pk3b.onrender.com/questions?page=1",driver.getCurrentUrl());
 	}
 	
 	@AfterSuite
