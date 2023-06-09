@@ -2,58 +2,58 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-06-08T18:16:57 PDT" name="Surefire suite" finished-at="2023-06-08T18:17:00 PDT" duration-ms="3003">
+  <suite started-at="2023-06-08T18:28:03 PDT" name="Surefire suite" finished-at="2023-06-08T18:28:06 PDT" duration-ms="3153">
     <groups>
     </groups>
-    <test started-at="2023-06-08T18:16:57 PDT" name="Surefire test" finished-at="2023-06-08T18:17:00 PDT" duration-ms="3003">
+    <test started-at="2023-06-08T18:28:03 PDT" name="Surefire test" finished-at="2023-06-08T18:28:06 PDT" duration-ms="3153">
       <class name="hackoverload.v1.testcases.LoginPageTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@19dc67c2]" started-at="2023-06-08T18:16:52 PDT" name="setup" finished-at="2023-06-08T18:16:55 PDT" duration-ms="3433" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@77be656f]" started-at="2023-06-08T18:27:57 PDT" name="setup" finished-at="2023-06-08T18:28:01 PDT" duration-ms="3438" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@19dc67c2]" started-at="2023-06-08T18:16:59 PDT" name="beforeEach" finished-at="2023-06-08T18:16:59 PDT" duration-ms="548" status="PASS">
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@77be656f]" started-at="2023-06-08T18:28:04 PDT" name="beforeEach" finished-at="2023-06-08T18:28:05 PDT" duration-ms="655" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method signature="testDemoLogin()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@19dc67c2]" started-at="2023-06-08T18:16:59 PDT" name="testDemoLogin" finished-at="2023-06-08T18:17:00 PDT" duration-ms="1052" status="PASS">
+        <test-method signature="testDemoLogin()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@77be656f]" started-at="2023-06-08T18:28:05 PDT" name="testDemoLogin" finished-at="2023-06-08T18:28:06 PDT" duration-ms="1086" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDemoLogin -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@19dc67c2]" started-at="2023-06-08T18:17:00 PDT" name="cleanup" finished-at="2023-06-08T18:17:01 PDT" duration-ms="170" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:hackoverload.v1.testcases.LoginPageTests@77be656f]" started-at="2023-06-08T18:28:06 PDT" name="cleanup" finished-at="2023-06-08T18:28:06 PDT" duration-ms="74" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
       </class> <!-- hackoverload.v1.testcases.LoginPageTests -->
       <class name="hackoverload.v1.testcases.SplashPageTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:16:55 PDT" name="setup" finished-at="2023-06-08T18:16:57 PDT" duration-ms="2000" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:01 PDT" name="setup" finished-at="2023-06-08T18:28:03 PDT" duration-ms="2065" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:16:57 PDT" name="beforeEach" finished-at="2023-06-08T18:16:58 PDT" duration-ms="392" status="PASS">
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:03 PDT" name="beforeEach" finished-at="2023-06-08T18:28:03 PDT" duration-ms="396" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method signature="testJoinButton()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:16:58 PDT" name="testJoinButton" finished-at="2023-06-08T18:16:58 PDT" duration-ms="385" status="PASS">
+        <test-method signature="testJoinButton()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:03 PDT" name="testJoinButton" finished-at="2023-06-08T18:28:04 PDT" duration-ms="424" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testJoinButton -->
-        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:16:58 PDT" name="beforeEach" finished-at="2023-06-08T18:16:58 PDT" duration-ms="174" status="PASS">
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:04 PDT" name="beforeEach" finished-at="2023-06-08T18:28:04 PDT" duration-ms="179" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method signature="testLoginButton()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:16:58 PDT" name="testLoginButton" finished-at="2023-06-08T18:16:58 PDT" duration-ms="134" status="PASS">
+        <test-method signature="testLoginButton()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:04 PDT" name="testLoginButton" finished-at="2023-06-08T18:28:04 PDT" duration-ms="98" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testLoginButton -->
-        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:16:58 PDT" name="beforeEach" finished-at="2023-06-08T18:16:59 PDT" duration-ms="167" status="PASS">
+        <test-method is-config="true" signature="beforeEach()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:04 PDT" name="beforeEach" finished-at="2023-06-08T18:28:04 PDT" duration-ms="166" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeEach -->
-        <test-method signature="testSecondJoinButton()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:16:59 PDT" name="testSecondJoinButton" finished-at="2023-06-08T18:16:59 PDT" duration-ms="105" status="PASS">
+        <test-method signature="testSecondJoinButton()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:04 PDT" name="testSecondJoinButton" finished-at="2023-06-08T18:28:04 PDT" duration-ms="90" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testSecondJoinButton -->
-        <test-method is-config="true" signature="cleanup()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@146044d7]" started-at="2023-06-08T18:17:01 PDT" name="cleanup" finished-at="2023-06-08T18:17:01 PDT" duration-ms="147" status="PASS">
+        <test-method is-config="true" signature="cleanup()[pri:0, instance:hackoverload.v1.testcases.SplashPageTests@59717824]" started-at="2023-06-08T18:28:06 PDT" name="cleanup" finished-at="2023-06-08T18:28:06 PDT" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanup -->
