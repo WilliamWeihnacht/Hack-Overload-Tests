@@ -24,7 +24,7 @@ public class NavbarPageObject {
 		if (loginButton.isDisplayed() && signupButton.isDisplayed()) return false;
 		else if (logoutButton.isDisplayed()) return true;
 		else {
-			throw new IllegalStateException("Navbar not found.");
+			throw new IllegalStateException();
 		}
 	}
 	

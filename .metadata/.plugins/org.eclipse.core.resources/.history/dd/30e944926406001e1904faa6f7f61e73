@@ -16,7 +16,7 @@ public class BrowserManager {
 		} else if (type.equalsIgnoreCase("firefox")) {
 			//driver = new firefox driver TODO
 		} else {
-			throw new IllegalStateException("driver type not recognized");
+			throw new IllegalStateException();
 		}
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
