@@ -1,0 +1,37 @@
+package hackoverload.v1.pageobjects;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+
+public class SplashPageObject {
+
+	WebDriver driver;
+	
+	//Join button
+	@FindBy(id = "splash-sign-up-button") WebElement joinButton;
+	
+	//Login button
+	@FindBy(id = "splash-login-button") WebElement loginButton;
+	
+	//2nd join button
+	@FindBy(id = "post-bubbles-button") WebElement secondJoinButton;
+	
+	public SplashPageObject(WebDriver driver) {
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+	}
+	
+	public void clickJoin () {
+		joinButton.click();
+	}
+	
+	public void clickLogin () {
+		loginButton.click();
+	}
+	
+	public void clickSecondJoin () {
+		secondJoinButton.click();
+	}
+}

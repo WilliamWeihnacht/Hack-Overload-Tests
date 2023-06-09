@@ -1167,3 +1167,17 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.google.co
 2023-06-08 18:27:42,159 [Worker-45: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/test/resources
 2023-06-08 18:27:52,734 [Worker-49: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1":
 2023-06-08 18:27:52,734 [Worker-49: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -X -e -Dstyle.color=always test
+2023-06-08 18:30:18,815 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-08 18:30:18,815 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/main/resources
+2023-06-08 18:30:18,818 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-08 18:30:18,818 [Worker-48: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/test/resources
+2023-06-08 18:30:28,070 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-08 18:30:28,070 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/main/resources
+2023-06-08 18:30:28,072 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-08 18:30:28,073 [Worker-51: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/test/resources
+2023-06-09 03:15:44,436 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 03:15:44,451 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/main/resources
+2023-06-09 03:15:44,455 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2023-06-09 03:15:44,455 [Worker-49: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/src/test/resources
+2023-06-09 03:15:54,227 [Worker-53: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate - Run build in "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1":
+2023-06-09 03:15:54,229 [Worker-53: Launching Executing test in _Users_wwhynot_Documents_Selenium-projects_Hack Overload Tests_v1] INFO  o.e.m.i.launch.MavenLaunchDelegate -  mvn  -B -X -e -Dstyle.color=always test
