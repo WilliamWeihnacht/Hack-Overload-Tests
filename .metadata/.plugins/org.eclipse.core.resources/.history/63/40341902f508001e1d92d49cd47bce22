@@ -7,7 +7,6 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class BrowserManager {
 	
-	@SuppressWarnings("deprecation")
 	public static WebDriver getDriver(String type) {
 		WebDriver driver = null;
 		if (type.equalsIgnoreCase("chrome")) {
@@ -15,7 +14,7 @@ public class BrowserManager {
 			System.setProperty("webdriver.chrome.driver",path+"/drivers/chromedriver");
 			driver = new ChromeDriver();
 		} else if (type.equalsIgnoreCase("firefox")) {
-			//driver = new Fire Fox driver TODO
+			//driver = new firefox driver TODO
 		} else {
 			throw new IllegalStateException("driver type not recognized");
 		}
