@@ -3,9 +3,16 @@
 <suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="1" name="Surefire test(failed)" verbose="0">
     <classes>
+      <class name="hackoverload.v1.testcases.SplashPageTests">
+        <methods>
+          <include name="cleanup"/>
+        </methods>
+      </class> <!-- hackoverload.v1.testcases.SplashPageTests -->
       <class name="hackoverload.v1.testcases.LoginPageTests">
         <methods>
           <include name="beforeEach"/>
+          <include name="testManualLogin"/>
+          <include name="checkNavBarState"/>
           <include name="cleanup"/>
           <include name="testDemoLogin"/>
           <include name="setup"/>

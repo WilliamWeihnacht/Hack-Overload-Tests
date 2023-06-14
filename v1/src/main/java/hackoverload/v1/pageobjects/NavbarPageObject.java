@@ -21,7 +21,8 @@ public class NavbarPageObject {
 	}
 	
 	public boolean loggedIn() {
-		if (loginButton.isDisplayed() && signupButton.isDisplayed()) return false;
+		//System.out.println(driver.getCurrentUrl());
+		if (loginButton.isDisplayed() || signupButton.isDisplayed()) return false;
 		else if (logoutButton.isDisplayed()) return true;
 		else {
 			throw new IllegalStateException("Navbar not found.");

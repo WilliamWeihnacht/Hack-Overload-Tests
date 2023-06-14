@@ -1,0 +1,50 @@
+package hackoverload.v1.testcases;
+
+import static org.junit.Assert.assertEquals;
+
+import java.util.concurrent.TimeUnit;
+
+import org.junit.After;
+import org.junit.Before;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.Test;
+
+import hackoverload.v1.pageobjects.LoginPageObject;
+import hackoverload.v1.pageobjects.NavbarPageObject;
+
+public class LoginPageTests {
+
+	WebDriver driver;
+	
+	@Before
+	public void setup() {
+		//driver = BrowserManager.getDriver("chrome");
+		//System.setProperty("webdriver.chrome.driver", "/Users/wwhynot/Documents/Selenium-projects/Hack Overload Tests/v1/drivers/chromedriver");
+		driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);
+	}
+	
+	@BeforeMethod
+	public void beforeEach() {
+//		driver.get("https://stackoverflowclone-pk3b.onrender.com/login");
+		NavbarPageObject navbarPageInstance = new NavbarPageObject(driver);
+		//navbarPageInstance.logout();
+	}
+	
+	@Test
+	public void testDemoLogin() {
+//		LoginPageObject loginPageInstance = new LoginPageObject(driver);
+//		loginPageInstance.clickDemoLogin();
+//		assertEquals(driver.getCurrentUrl(),"https://stackoverflowclone-pk3b.onrender.com/questions?page=1");
+	}
+	
+	@After
+	public void cleanup() {
+		driver.close();
+	}
+	
+}

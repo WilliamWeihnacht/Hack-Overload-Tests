@@ -32,7 +32,8 @@ public class LoginPageTests {
 	public void beforeEach() {
 		driver.get("https://stackoverflowclone-pk3b.onrender.com/login");
 		NavbarPageObject navbarPageInstance = new NavbarPageObject(driver);
-		if (navbarPageInstance.loggedIn()) navbarPageInstance.logout();
+		navbarPageInstance.logout();
+		//if (navbarPageInstance.loggedIn()) navbarPageInstance.logout();
 	}
 	
 	@Test
@@ -43,6 +44,23 @@ public class LoginPageTests {
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("log-out-button")));
 		assertEquals("Login failed","https://stackoverflowclone-pk3b.onrender.com/questions?page=1",driver.getCurrentUrl());
+	}
+	
+	@Test
+	public void testManualLogin() {
+		LoginPageObject loginPageInstance = new LoginPageObject(driver);
+		assertEquals("https://stackoverflowclone-pk3b.onrender.com/login",driver.getCurrentUrl());
+		loginPageInstance.enterUsername("demouser");
+		loginPageInstance.enterPassword("password");
+		loginPageInstance.clickLogin();
+		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
+		wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("log-out-button")));
+		assertEquals("Login failed","https://stackoverflowclone-pk3b.onrender.com/questions?page=1",driver.getCurrentUrl());
+	}
+	
+	@Test
+	public void checkNavBarState() {
+		
 	}
 	
 	@AfterSuite
